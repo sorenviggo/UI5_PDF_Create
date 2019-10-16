@@ -4,7 +4,14 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+						<VBox>
+							<HBox>
+								<Button text="Open PDF" press="onOpenPDF"/>
+								<Button text="Save PDF" press="onSavePDF"/>
+							</HBox>
+						</VBox>
+					</content>
 				</Page>
 			</pages>
 		</App>
